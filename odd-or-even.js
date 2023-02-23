@@ -3,11 +3,11 @@
 
 var oddOrEven = function (num) {
     for (let i = 0; i <= num; i++) {
-        if (i % 2 !== 0) {
-            console.log("odd")
+        if (num % 2 == 0) {
+            return "even";
         } else {
-            if (i % 2 == 0) {
-                console.log("even")
+            if (num % 2 !== 0) {
+                return "odd"
             }
         }
     }
